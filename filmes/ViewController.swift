@@ -71,9 +71,14 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let filme:Filme = filmes[indexPath.row]
         let celulaReuso = "celulaReuso"
-        let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath	)
-        celula.textLabel?.text = filme.titulo
-        celula.imageView?.image = filme.imagem
+        
+        // converte a celula para classe filme celula
+        let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath	) as! FilmeCelula
+        celula.filmeImageView.image = filme.imagem
+        celula.filmeLabelTitulo.text = filme.titulo
+        celula.filmeLabelDescricao.text = filme.descricao
+        //celula.textLabel?.text = filme.titulo
+        //celula.imageView?.image = filme.imagem
         
         return celula
     }
