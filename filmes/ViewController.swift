@@ -74,11 +74,14 @@ class ViewController: UITableViewController {
         
         // converte a celula para classe filme celula
         let celula = tableView.dequeueReusableCell(withIdentifier: celulaReuso, for: indexPath	) as! FilmeCelula
+        // seta as referencias
         celula.filmeImageView.image = filme.imagem
         celula.filmeLabelTitulo.text = filme.titulo
         celula.filmeLabelDescricao.text = filme.descricao
-        //celula.textLabel?.text = filme.titulo
-        //celula.imageView?.image = filme.imagem
+        
+        // arredonda a imagem
+        celula.filmeImageView.layer.cornerRadius = 42
+        celula.filmeImageView.clipsToBounds = true
         
         return celula
     }
