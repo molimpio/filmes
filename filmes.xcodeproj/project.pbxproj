@@ -14,6 +14,7 @@
 		80E9FD7821AE18160066CAE8 /* Filme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9FD7721AE18160066CAE8 /* Filme.swift */; };
 		80E9FD7921AE9BC40066CAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E9FD6C21AE0A960066CAE8 /* Assets.xcassets */; };
 		80E9FD7B21AFE1630066CAE8 /* FilmeCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9FD7A21AFE1630066CAE8 /* FilmeCelula.swift */; };
+		80E9FD7D21AFE1630066CAE8 /* DetalhesFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9FD7C21AFE1630066CAE8 /* DetalhesFilmeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		80E9FD7121AE0A960066CAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E9FD7721AE18160066CAE8 /* Filme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filme.swift; sourceTree = "<group>"; };
 		80E9FD7A21AFE1630066CAE8 /* FilmeCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmeCelula.swift; sourceTree = "<group>"; };
+		80E9FD7C21AFE1630066CAE8 /* DetalhesFilmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesFilmeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				80E9FD6521AE0A920066CAE8 /* AppDelegate.swift */,
 				80E9FD6721AE0A920066CAE8 /* ViewController.swift */,
 				80E9FD6921AE0A920066CAE8 /* Main.storyboard */,
+				80E9FD7C21AFE1630066CAE8 /* DetalhesFilmeViewController.swift */,
 				80E9FD7A21AFE1630066CAE8 /* FilmeCelula.swift */,
 				80E9FD7721AE18160066CAE8 /* Filme.swift */,
 				80E9FD6C21AE0A960066CAE8 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				80E9FD6821AE0A920066CAE8 /* ViewController.swift in Sources */,
 				80E9FD7821AE18160066CAE8 /* Filme.swift in Sources */,
+				80E9FD7D21AFE1630066CAE8 /* DetalhesFilmeViewController.swift in Sources */,
 				80E9FD6621AE0A920066CAE8 /* AppDelegate.swift in Sources */,
 				80E9FD7B21AFE1630066CAE8 /* FilmeCelula.swift in Sources */,
 			);
